@@ -7,6 +7,7 @@ lyra2z_hash_module = Extension('lyra2z_hash',
 										  'Sponge.c',
 										  'Lyra2.c',
 										  'blake.c'],
+                               extra_compile_args=['-std=c99'],
                                include_dirs=['.'])
 
 setup (name = 'lyra2z_hash',
