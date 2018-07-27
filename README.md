@@ -1,6 +1,6 @@
 
 ----------------------------------
-Python C module for lyra2z hashing 
+Python3 C module for lyra2z hashing
 ----------------------------------
 
 Notes for Zcoin:
@@ -32,7 +32,7 @@ In cmd type this:
 
     - untested
 
-	
+
 Windows (microsoft visual c++)
 * Open visual studio console
 
@@ -42,13 +42,13 @@ In cmd type this:
     C:\Python27\python.exe setup.py install
 
 	Test the install:
-	
+
 	C:\Python27\python.exe
 	...
 	>>>import lyra2z_hash
 	>>>help('lyra2z_hash')
 	>>>quit()
-	
+
     - tested ok
 
 
